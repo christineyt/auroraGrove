@@ -1,0 +1,54 @@
+body {
+  font-family: "Raleway", sans-serif; }
+  body .navbar {
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999; }
+    body .navbar .navbar-brand h3 {
+      font-weight: 100; }
+    body .navbar .nav-item {
+      font-size: 1.4rem; }
+    body .navbar .nav-link:hover {
+      transition: border 0.2s;
+      border-bottom: 1px solid white; }
+  body #showcase {
+    background: url("../images/main.jpeg") bottom center/cover no-repeat;
+    min-height: 750px;
+    position: relative; }
+    body #showcase #header {
+      z-index: 2; }
+    body #showcase #overlay {
+      background: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1; }
+    body #showcase h1, body #showcase h2, body #showcase h3, body #showcase h5, body #showcase p {
+      font-family: "Questrial", sans-serif;
+      line-height: 1; }
+    body #showcase .book {
+      font-size: 1.5rem;
+      border-radius: 2rem; }
+  body #quotes i {
+    opacity: 0.3; }
+  body .arrowicon {
+    font-size: 1.2rem; }
+  body #footer {
+    font-weight: 100; }
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #1f1f1f; }
+    .navbar .nav-link:hover {
+      border-bottom: none; }
+
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; } }
